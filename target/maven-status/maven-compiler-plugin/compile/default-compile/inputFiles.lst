@@ -1,0 +1,7 @@
+/Users/Nisrine/IdeaProjects/dvdstore/src/main/java/com/mycompany/dvdstore/repository/MovieRepositoryInterface.java
+/Users/Nisrine/IdeaProjects/dvdstore/src/main/java/com/mycompany/dvdstore/entity/Movie.java
+/Users/Nisrine/IdeaProjects/dvdstore/src/main/java/com/mycompany/dvdstore/repository/memory/MemoryMovieRepository.java
+/Users/Nisrine/IdeaProjects/dvdstore/src/main/java/com/mycompany/dvdstore/repository/file/FileMovieRepository.java
+/Users/Nisrine/IdeaProjects/dvdstore/src/main/java/com/mycompany/dvdstore/controller/AboutUsController.java
+/Users/Nisrine/IdeaProjects/dvdstore/src/main/java/com/mycompany/dvdstore/service/DefaultMovieService.java
+/Users/Nisrine/IdeaProjects/dvdstore/src/main/java/com/mycompany/dvdstore/service/MovieServiceInterface.java
