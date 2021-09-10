@@ -17,7 +17,7 @@ public class FileMovieRepository implements MovieRepositoryInterface {
 
     private List<Movie> movies = new ArrayList<>();
 
-    public void add(Movie movie) {
+    public Movie add(Movie movie) {
         FileWriter writer;
         try{
             writer=new FileWriter(file,true);
@@ -31,6 +31,7 @@ public class FileMovieRepository implements MovieRepositoryInterface {
         catch (IOException e){
             e.printStackTrace();
         }
+        return movie;
     }
 
     @Override
