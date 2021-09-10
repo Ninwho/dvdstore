@@ -10,6 +10,8 @@ import java.util.List;
 //@Repository
 public class MemoryMovieRepository implements MovieRepositoryInterface {
 
+    private static long compteur;
+
     private List<Movie> movies = new ArrayList<>();
 
     public void add(Movie movie) {
@@ -20,6 +22,13 @@ public class MemoryMovieRepository implements MovieRepositoryInterface {
     @Override
     public List<Movie> list() {
         return movies;
+    }
+
+    @Override
+    public Movie getById(long id) {
+        return movies.stream().
+                filter(m -> m.getId()==id).
+                findFirst().get();
     }
 
 }
